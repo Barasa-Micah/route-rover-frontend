@@ -20,7 +20,23 @@ const Homepage = () => {
             <p>Your one-stop solution for convenient and accessible public transportation</p>
             <a href='#features' className='cta-button'>Explore Features</a>
         </section>
+        <section id='about'>
+            <h2>About RouteRover</h2>
+            <p>RouteRover is a web-based platform designed to revolutionize public transportation by providing secure, convenient znd accessible solutions for passengers and transport operators.</p>
+        </section>
+        <section id='features'>
+            <h2>Key Features</h2>
+            <ul>
+                <li>Multi-Modal Ticketing and Payment</li>
+                <li>Real-Time Trip Planning</li>
+                <li>Data Analytics Dashboard</li>
+                <li>Accessibility Features</li>
+            </ul>
+        </section>
       </main>
+      <footer>
+        <p>&copy; 2024 RouteRover</p>
+      </footer>
     </div>
   )
 }
