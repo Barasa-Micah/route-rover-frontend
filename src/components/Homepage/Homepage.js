@@ -1,5 +1,5 @@
 import React from "react";
-
+import './Homepage.css';
 
 function HomePage() {
     return (
@@ -41,13 +41,15 @@ function HomePage() {
                     <li>Pay securely</li>
                 </ol>
             </section>
-            <section id="cta">
+            {/* <section id="cta">
                 <p>Ready to get started? Sign up now!</p>
                 <a href="#signup" className="cta-button">Sign Up</a>
-            </section>
+            </section> */}
             <footer>
                 <p>&copy; 2024 Transit Rover. The best there ever will be</p>
             </footer>
         </div>
     )
 }
+
+export default HomePage;
